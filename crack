@@ -9,8 +9,8 @@ for i in range(1, 5):
     print("".join(u))
     ha = hashlib.md5("".join(u).encode())
     he = ha.hexdigest()
-    если повторно == он: перерыв
-print ("хэш и пас", он "" .join (u))
+    if re == he: break
+print ("hash and password", he "" .join (u))
 ti2 = time.time()
 print("sec", ti2-ti)
 f.close()
